@@ -35,7 +35,7 @@ import utils.Validate;
  * PURPOSE. See the GNU General Public License for more details.<br>
  *
  * <p>You should have received a copy of the GNU General Public License along with the Security
- * Shepherd project. If not, see <http://www.gnu.org/licenses/>.
+ * Playground project. If not, see <http://www.gnu.org/licenses/>.
  *
  * @author Mark Denihan
  */
@@ -155,7 +155,7 @@ public class UnvalidatedForwardsLesson extends HttpServlet {
                     + "</h2>"
                     + "<p><table><tr><td>"
                     + bundle.getString("response.sentTo")
-                    + ": </td><td>administrator@SecurityShepherd.com</td></tr>"
+                    + ": </td><td>administrator@SecurityPlayground.com</td></tr>"
                     + "<tr><td>"
                     + bundle.getString("response.message")
                     + ": </td><td><a href='"

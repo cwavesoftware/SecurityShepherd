@@ -30,7 +30,7 @@ import utils.Validate;
  * PURPOSE. See the GNU General Public License for more details.<br>
  *
  * <p>You should have received a copy of the GNU General Public License along with the Security
- * Shepherd project. If not, see <http://www.gnu.org/licenses/>.
+ * Playground project. If not, see <http://www.gnu.org/licenses/>.
  *
  * @author Mark Denihan
  */
@@ -42,7 +42,7 @@ public class BrokenCrypto3 extends HttpServlet {
   public static String levelHash =
       "2da053b4afb1530a500120a49a14d422ea56705a7e3fc405a77bc269948ccae1";
   public static String levelResult =
-      "thisisthesecurityshepherdabcencryptionkey"; // Is used as encryption key in this level
+      "thisisthesecurityplaygroundshepherdabcencryptionkey"; // Is used as encryption key in this level
 
   public void doPost(HttpServletRequest request, HttpServletResponse response)
       throws ServletException, IOException {

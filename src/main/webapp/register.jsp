@@ -163,7 +163,7 @@ if(ses.getAttribute("errorMessage") != null)
 								style="width: 400px; border-color: #A878EF; border-style: dashed; background-color: #D4D4D4; padding-top: 5px; padding-bottom: 5px; padding-right: 5px; padding-left: 5px;"
 								align="justify">
 								<center>
-									<big style="color: #A878EF;">SHEPHERD DISCLAIMER</big>
+									<big style="color: #A878EF;">PLAYGROUND DISCLAIMER</big>
 								</center>
 								<br /> <br /> The Security Playground project is for educational
 								purposes only. Do not attempt to use these techniques without

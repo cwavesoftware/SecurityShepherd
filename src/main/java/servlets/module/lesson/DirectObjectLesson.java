@@ -30,7 +30,7 @@ import utils.Validate;
  * PURPOSE. See the GNU General Public License for more details.<br>
  *
  * <p>You should have received a copy of the GNU General Public License along with the Security
- * Shepherd project. If not, see <http://www.gnu.org/licenses/>.
+ * Playground project. If not, see <http://www.gnu.org/licenses/>.
  *
  * @author Mark Denihan
  */
@@ -123,7 +123,7 @@ public class DirectObjectLesson extends HttpServlet {
         + ":</th><td>54 Kevin Street, Dublin</td></tr>"
         + "<tr><th>"
         + bundle.getString("response.email")
-        + ":</th><td>guestAccount@securityShepherd.com</td></tr>"
+        + ":</th><td>guestAccount@SecurityPlayground.com</td></tr>"
         + "<tr><th>"
         + bundle.getString("response.message")
         + ":</th><td>"
@@ -142,7 +142,7 @@ public class DirectObjectLesson extends HttpServlet {
         + ":</th><td>12 Bolton Street, Dublin</td></tr>"
         + "<tr><th>"
         + bundle.getString("response.email")
-        + ":</th><td>administratorAccount@securityShepherd.com</td></tr>"
+        + ":</th><td>administratorAccount@SecurityPlayground.com</td></tr>"
         + "<tr><th>"
         + bundle.getString("response.message")
         + ":</th>"

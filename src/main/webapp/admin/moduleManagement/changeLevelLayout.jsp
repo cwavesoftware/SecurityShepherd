@@ -58,7 +58,7 @@ if (request.getSession() != null) //Session If
 	</h1>
 	<div class="entry">
 		<p>You can change the layout in which modules are presented to
-			players. Use the following functions to change the current Shepherd
+			players. Use the following functions to change the current Playground
 			Mode.</p>
 		<div id="resultDiv" style="display: none" class="informationBox"></div>
 		<div id="badData" style="display: none"></div>
@@ -67,7 +67,7 @@ if (request.getSession() != null) //Session If
 		<div id="ctfDiv" <% if(ModulePlan.isIncrementalFloor()) { %>
 			style="display: none;" <% } %>>
 			<h2 class="title">Enable CTF Mode</h2>
-			<p>When Shepherd has been deployed in the CTF mode, a user can
+			<p>When Playground has been deployed in the CTF mode, a user can
 				only access one uncompleted module at a time. The first module
 				presented to the user is the easiest in Security Playground, which has
 				not been marked as closed by the administrator. The levels increase
@@ -86,7 +86,7 @@ if (request.getSession() != null) //Session If
 		<div id="openFloor" <% if(ModulePlan.isOpenFloor()) { %>
 			style="display: none;" <% } %>>
 			<h2 class="title">Enable Open Floor Mode</h2>
-			<p>When Shepherd has been deployed in the Open Floor mode, a user
+			<p>When Playground has been deployed in the Open Floor mode, a user
 				can access any level that is marked as open by the admin. Modules
 				are sorted into their Security Risk Categories, and the lessons are
 				presented first. This layout is ideal for users wishing to explore
@@ -104,10 +104,10 @@ if (request.getSession() != null) //Session If
 		<div id="tournament" <%if(ModulePlan.isTournamentFloor()) {%>
 			style="display: none;" <% } %>>
 			<h2 class="title">Enable Tournament Mode</h2>
-			<p>When Shepherd has been deployed in the Tournament Mode, a user
+			<p>When Playground has been deployed in the Tournament Mode, a user
 				can access any level that is marked as open by the admin. Modules
 				are sorted into difficulty bands, from least to most difficult. This
-				layout is ideal when Shepherd is being utilised as an open
+				layout is ideal when Playground is being utilised as an open
 				application security competition.</p>
 			<a href="javascript:;" style="text-decoration: none;"
 				id="enableTournamentMode" title="Enable Tournament Mode">

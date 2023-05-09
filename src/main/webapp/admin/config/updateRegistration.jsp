@@ -80,7 +80,7 @@ String ApplicationRoot = getServletContext().getRealPath("");
 					style="display: none;" <% } %>>
 					<p>This function will open the registration functionality.
 						Users will have to refresh the login page to see the link pointing
-						to the Shepherd registration page.</p>
+						to the Playground registration page.</p>
 					<table align="center">
 						<tr>
 							<td colspan="2" align="center"><input type="submit"

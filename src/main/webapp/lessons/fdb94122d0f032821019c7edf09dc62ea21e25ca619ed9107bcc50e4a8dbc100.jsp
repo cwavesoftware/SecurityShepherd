@@ -131,7 +131,7 @@
 				</tr>
 				<tr>
 					<th><%= bundle.getString("challenge.email") %>:</th>
-					<td>guestAccount@securityShepherd.com</td>
+					<td>guestAccount@SecurityPlayground.com</td>
 				</tr>
 				<tr>
 					<th><%= bundle.getString("challenge.message") %>:</th>

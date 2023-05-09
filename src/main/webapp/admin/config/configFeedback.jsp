@@ -54,7 +54,7 @@ if(Validate.validateAdminSession(ses, tokenCookie, tokenParmeter))
 %>
 <h1 class="title">Configure Feedback</h1>
 <p>
-	You can configure Shepherd to force users to submit a feedback form
+	You can configure Playground to force users to submit a feedback form
 	before the module is marked as complete. This is used both to
 	facilitate project improvements based on feedback submitted and for
 	system administrators to collect "Reports of Understanding" from their

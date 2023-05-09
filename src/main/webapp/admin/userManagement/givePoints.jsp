@@ -75,7 +75,7 @@ catch(SQLException e)
 			<p>Use this function to reward or punish your players. Use the
 				following form with a positive or negitive number to modify the
 				amount of points a player has. For the best results, ensure your
-				users can see the Shepherd Scoreboard. If you push a player into
+				users can see the Playground Scoreboard. If you push a player into
 				negative points they will not appear on the scoreboard.</p>
 			<input type="hidden" id="csrfToken" value="<%=csrfToken%>" />
 			<div id="updatePointsDiv">

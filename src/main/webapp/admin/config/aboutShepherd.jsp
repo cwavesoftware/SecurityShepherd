@@ -55,17 +55,12 @@ String ApplicationRoot = getServletContext().getRealPath("");
 <h1 class="title">The OWASP Security Playground Project</h1>
 <p>
 	You are currently using Security Playground Version 3.2 <br>
-	<br> The OWASP Security Playground project is a web and mobile
+	<br> The Security Playground project is a web and mobile
 	application security training platform. Security Playground has been
 	designed to foster and improve security awareness among a varied
 	skill-set demographic. The aim of this project is to take AppSec
 	novices or experienced engineers and sharpen their penetration testing
-	skill set to security expert status. For more information, please visit
-	the <a href="http://bit.ly/owaspSecurityShepherd">OWASP Security
-		Shepherd Wiki Page</a>. <br>
-	<br> Please report any bugs or any feature requests on the <a
-		href="http://bit.ly/securityShepherdGithub">OWASP Security
-		Shepherd Git Repository</a>.
+	skill set to security expert status.
 </p>
 <%= Analytics.sponsorshipMessage(new Locale(Validate.validateLanguage(request.getSession()))) %>
 <br />

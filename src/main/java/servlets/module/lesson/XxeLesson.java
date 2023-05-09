@@ -42,7 +42,7 @@ import utils.XmlDocumentBuilder;
  * PURPOSE. See the GNU General Public License for more details.<br>
  *
  * <p>You should have received a copy of the GNU General Public License along with the Security
- * Shepherd project. If not, see <a
+ * Playground project. If not, see <a
  * href="https://www.gnu.org/licenses/">http://www.gnu.org/licenses/.</a>.
  *
  * @author ismisepaul

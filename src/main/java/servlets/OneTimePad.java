@@ -14,7 +14,7 @@ package servlets;
  * PURPOSE. See the GNU General Public License for more details.<br>
  *
  * <p>You should have received a copy of the GNU General Public License along with the Security
- * Shepherd project. If not, see <http://www.gnu.org/licenses/>.
+ * Playground project. If not, see <http://www.gnu.org/licenses/>.
  *
  * @author Jason
  */

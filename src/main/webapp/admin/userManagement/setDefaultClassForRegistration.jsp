@@ -72,7 +72,7 @@ catch(SQLException e)
 	<div id="setDefaultClassDiv" class="entry">
 		<form id="theForm" action="javascript:;">
 			<p>Any user that registers with this instance of Security
-				Shepherd will be automatically assigned to the class group you
+				Playground will be automatically assigned to the class group you
 				choose in this form.</p>
 			<input type="hidden" id="csrfToken" value="<%=csrfToken%>" />
 			<table align="center">

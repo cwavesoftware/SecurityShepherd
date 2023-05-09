@@ -119,7 +119,7 @@ public class CsrfLessonIT {
         log.fatal(message);
         fail(message);
       } else if (!servletResponse.contains(
-          "administrator@SecurityShepherd.com")) // This is hardcoded in
+          "administrator@SecurityPlayground.com")) // This is hardcoded in
       // response. if it fails
       // then the level isn't
       // working for some reason
@@ -174,7 +174,7 @@ public class CsrfLessonIT {
           log.fatal(message);
           fail(message);
         } else if (!servletResponse.contains(
-            "administrator@SecurityShepherd.com")) // This is hardcoded in
+            "administrator@SecurityPlayground.com")) // This is hardcoded in
         // response. if it fails
         // then the level isn't
         // working for some reason
