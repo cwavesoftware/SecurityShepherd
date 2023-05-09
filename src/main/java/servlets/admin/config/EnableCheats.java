@@ -17,13 +17,13 @@ import utils.Validate;
 /**
  * Control class responsible for enabling cheat sheet functionality <br>
  * <br>
- * This file is part of the Security Shepherd Project.
+ * This file is part of the Security Playground Project.
  *
- * <p>The Security Shepherd project is free software: you can redistribute it and/or modify it under
+ * <p>The Security Playground project is free software: you can redistribute it and/or modify it under
  * the terms of the GNU General Public License as published by the Free Software Foundation, either
  * version 3 of the License, or (at your option) any later version.<br>
  *
- * <p>The Security Shepherd project is distributed in the hope that it will be useful, but WITHOUT
+ * <p>The Security Playground project is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
  * PURPOSE. See the GNU General Public License for more details.<br>
  *
@@ -67,13 +67,13 @@ public class EnableCheats extends HttpServlet {
           log.debug("Cheat Sheets Enabled");
           out.write(
               "<h2 class='title'>Cheat Sheets Enabled</h2>"
-                  + "<p>Cheat Sheets have been enabled for all Security Shepherd Users</p>");
+                  + "<p>Cheat Sheets have been enabled for all Security Playground Users</p>");
         } else {
           CheatSheetStatus.enableForAdminsOnly();
           log.debug("Cheat Sheets Enabled");
           out.write(
               "<h2 class='title'>Cheat Sheets Enabled</h2>"
-                  + "<p>Cheat Sheets have been enabled for Security Shepherd Administrators</p>");
+                  + "<p>Cheat Sheets have been enabled for Security Playground Administrators</p>");
         }
       }
     } else {

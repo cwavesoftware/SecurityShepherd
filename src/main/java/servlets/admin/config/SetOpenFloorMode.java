@@ -18,13 +18,13 @@ import utils.Validate;
  * This control class is responsible for achieve the server functionality section of the Open Floor
  * Schema <br>
  * <br>
- * This file is part of the Security Shepherd Project.
+ * This file is part of the Security Playground Project.
  *
- * <p>The Security Shepherd project is free software: you can redistribute it and/or modify it under
+ * <p>The Security Playground project is free software: you can redistribute it and/or modify it under
  * the terms of the GNU General Public License as published by the Free Software Foundation, either
  * version 3 of the License, or (at your option) any later version.<br>
  *
- * <p>The Security Shepherd project is distributed in the hope that it will be useful, but WITHOUT
+ * <p>The Security Playground project is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
  * PURPOSE. See the GNU General Public License for more details.<br>
  *
@@ -63,7 +63,7 @@ public class SetOpenFloorMode extends HttpServlet {
         ModulePlan.setOpenFloor();
         log.debug("Open Floor Plan enabled");
         out.write(
-            "<h3 class='title'>Open Floor Plan Enabled</h3><p>Security Shepherd Users are now using"
+            "<h3 class='title'>Open Floor Plan Enabled</h3><p>Security Playground Users are now using"
                 + " an open floor plan. Refresh your browser to see these settings in effect.</p>");
       } else {
         out.write("Error Occurred!");

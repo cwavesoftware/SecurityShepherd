@@ -170,7 +170,7 @@ public class EnableCheatsIT {
       // Add Cookies from Response to outgoing request
       request.setCookies(response.getCookies());
       String responseBody = doThePost(csrfToken, enableForAll);
-      if (responseBody.contains("Cheat Sheets have been enabled for all Security Shepherd Users")) {
+      if (responseBody.contains("Cheat Sheets have been enabled for all Security Playground Users")) {
         log.debug("Cheat Sheets Were Enabled for All");
         if (!CheatSheetStatus.isEnabledForPlayers()) {
           String message = "Cheat Sheets were not actually Enabled for players";
@@ -218,8 +218,8 @@ public class EnableCheatsIT {
       request.setCookies(response.getCookies());
       String responseBody = doThePost(csrfToken, enableForAll);
       if (responseBody.contains(
-          "Cheat Sheets have been enabled for Security Shepherd Administrators")) {
-        log.debug("Cheat Sheets have been enabled for Security Shepherd Administrators");
+          "Cheat Sheets have been enabled for Security Playground Administrators")) {
+        log.debug("Cheat Sheets have been enabled for Security Playground Administrators");
         if (!CheatSheetStatus.isEnabledForAdminsOnly()) {
           String message = "Cheat Sheets were not actually Enabled for admins only";
           log.fatal(message);

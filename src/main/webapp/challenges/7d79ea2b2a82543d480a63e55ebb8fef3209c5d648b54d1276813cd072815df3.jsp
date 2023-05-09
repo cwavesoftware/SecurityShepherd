@@ -7,20 +7,20 @@
 	// Cross Site Request Forgery Challenge 7
 
 /**
- * This file is part of the Security Shepherd Project.
+ * This file is part of the Security Playground Project.
  * 
- * The Security Shepherd project is free software: you can redistribute it and/or modify
+ * The Security Playground project is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.<br/>
  * 
- * The Security Shepherd project is distributed in the hope that it will be useful,
+ * The Security Playground project is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.<br/>
  * 
  * You should have received a copy of the GNU General Public License
- * along with the Security Shepherd project.  If not, see <http://www.gnu.org/licenses/>. 
+ * along with the Security Playground project.  If not, see <http://www.gnu.org/licenses/>. 
  * 
  * @author Mark Denihan
  */
@@ -73,7 +73,7 @@ if (request.getSession() != null)
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>Security Shepherd - <%= i18nLevelName %></title>
+<title>Security Playground - <%= i18nLevelName %></title>
 <link href="../css/lessonCss/theCss.css" rel="stylesheet"
 	type="text/css" media="screen" />
 
@@ -109,7 +109,7 @@ if (request.getSession() != null)
       </p>
       <p>
         You've been reading that right. Along with your own ID you'll need the CSRF token of another player.
-        <br /> Once you have successfully CSRF'd another Security Shepherd user, the solution key will appear below this write up.
+        <br /> Once you have successfully CSRF'd another Security Playground user, the solution key will appear below this write up.
         <br /> You can get your token using this function: <a href="<%= getYourTokenUrl %>">getYourToken</a>.
       </p>
 

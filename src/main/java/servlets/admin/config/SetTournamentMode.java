@@ -17,13 +17,13 @@ import utils.Validate;
 /**
  * Control class that modifies the server floor plan to a Tournament state. <br>
  * <br>
- * This file is part of the Security Shepherd Project.
+ * This file is part of the Security Playground Project.
  *
- * <p>The Security Shepherd project is free software: you can redistribute it and/or modify it under
+ * <p>The Security Playground project is free software: you can redistribute it and/or modify it under
  * the terms of the GNU General Public License as published by the Free Software Foundation, either
  * version 3 of the License, or (at your option) any later version.<br>
  *
- * <p>The Security Shepherd project is distributed in the hope that it will be useful, but WITHOUT
+ * <p>The Security Playground project is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
  * PURPOSE. See the GNU General Public License for more details.<br>
  *
@@ -62,7 +62,7 @@ public class SetTournamentMode extends HttpServlet {
         ModulePlan.setTournamentFloor();
         log.debug("Tournament Mode enabled");
         out.write(
-            "<h3 class='title'>Tournament Floor Plan Enabled</h3><p>Security Shepherd Users are now"
+            "<h3 class='title'>Tournament Floor Plan Enabled</h3><p>Security Playground Users are now"
                 + " using the tournament floor plan. Refresh your page to see these changes in your"
                 + " browser.</p>");
       } else {

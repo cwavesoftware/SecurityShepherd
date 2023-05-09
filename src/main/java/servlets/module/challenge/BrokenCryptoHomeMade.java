@@ -31,13 +31,13 @@ import utils.Validate;
  * specific keys. The old mechanism is used here and can be broken to create keys by finding out the
  * server secrets
  *
- * <p>This file is part of the Security Shepherd Project.
+ * <p>This file is part of the Security Playground Project.
  *
- * <p>The Security Shepherd project is free software: you can redistribute it and/or modify it under
+ * <p>The Security Playground project is free software: you can redistribute it and/or modify it under
  * the terms of the GNU General Public License as published by the Free Software Foundation, either
  * version 3 of the License, or (at your option) any later version.<br>
  *
- * <p>The Security Shepherd project is distributed in the hope that it will be useful, but WITHOUT
+ * <p>The Security Playground project is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
  * PURPOSE. See the GNU General Public License for more details.<br>
  *

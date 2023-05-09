@@ -19,13 +19,13 @@ import utils.Validate;
 /**
  * Control class for the logout operation <br>
  * <br>
- * This file is part of the Security Shepherd Project.
+ * This file is part of the Security Playground Project.
  *
- * <p>The Security Shepherd project is free software: you can redistribute it and/or modify it under
+ * <p>The Security Playground project is free software: you can redistribute it and/or modify it under
  * the terms of the GNU General Public License as published by the Free Software Foundation, either
  * version 3 of the License, or (at your option) any later version.<br>
  *
- * <p>The Security Shepherd project is distributed in the hope that it will be useful, but WITHOUT
+ * <p>The Security Playground project is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
  * PURPOSE. See the GNU General Public License for more details.<br>
  *
@@ -40,7 +40,7 @@ public class Logout extends HttpServlet {
   private static final Logger log = LogManager.getLogger(Logout.class);
 
   /**
-   * Initiated in index.jsp. Invalidates session and Security Shepherd tokens are removed. The user
+   * Initiated in index.jsp. Invalidates session and Security Playground tokens are removed. The user
    * is logged out.
    */
   public void doGet(HttpServletRequest request, HttpServletResponse response)

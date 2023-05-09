@@ -5,20 +5,20 @@
 	ShepherdLogManager.logEvent(request.getRemoteAddr(), request.getHeader("X-Forwarded-For"), "DEBUG: register.jsp *************************");
 
 /**
- * This file is part of the Security Shepherd Project.
+ * This file is part of the Security Playground Project.
  * 
- * The Security Shepherd project is free software: you can redistribute it and/or modify
+ * The Security Playground project is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.<br/>
  * 
- * The Security Shepherd project is distributed in the hope that it will be useful,
+ * The Security Playground project is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.<br/>
  * 
  * You should have received a copy of the GNU General Public License
- * along with the Security Shepherd project.  If not, see <http://www.gnu.org/licenses/>. 
+ * along with the Security Playground project.  If not, see <http://www.gnu.org/licenses/>. 
  * 
  * @author Mark Denihan
  */
@@ -91,7 +91,7 @@ if(ses.getAttribute("errorMessage") != null)
 		<jsp:include page="translation-select.jsp" />
 		<!-- start header -->
 		<div id="header">
-			<h1>Security Shepherd</h1>
+			<h1>Security Playground</h1>
 		</div>
 		<!-- end header -->
 		<!-- start page -->
@@ -165,12 +165,12 @@ if(ses.getAttribute("errorMessage") != null)
 								<center>
 									<big style="color: #A878EF;">SHEPHERD DISCLAIMER</big>
 								</center>
-								<br /> <br /> The Security Shepherd project is for educational
+								<br /> <br /> The Security Playground project is for educational
 								purposes only. Do not attempt to use these techniques without
 								authorization. If you are caught engaging in unauthorized
 								hacking, most companies will take legal action. Claiming that
 								you were doing security research will not protect you. <br />
-								<br /> Security Shepherd is a safe playground for you to improve
+								<br /> Security Playground is a safe playground for you to improve
 								your web application security skills and only encourages white
 								hat or ethical hacking behaviour. <br />
 							</div>
@@ -187,7 +187,7 @@ if(ses.getAttribute("errorMessage") != null)
 				<div id="loadingSign" style="display: none">
 					<p>
 					<h2 class="title">Enrolling Now</h2>
-					<p>Please wait as you are enrolled for your Security Shepherd
+					<p>Please wait as you are enrolled for your Security Playground
 						account.</p>
 					</p>
 				</div>

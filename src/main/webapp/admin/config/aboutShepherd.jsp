@@ -6,20 +6,20 @@
 	ShepherdLogManager.logEvent(request.getRemoteAddr(), request.getHeader("X-Forwarded-For"), "DEBUG: aboutShepherd.jsp *************************");
 
 /**
- * This file is part of the Security Shepherd Project.
+ * This file is part of the Security Playground Project.
  * 
- * The Security Shepherd project is free software: you can redistribute it and/or modify
+ * The Security Playground project is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.<br/>
  * 
- * The Security Shepherd project is distributed in the hope that it will be useful,
+ * The Security Playground project is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.<br/>
  * 
  * You should have received a copy of the GNU General Public License
- * along with the Security Shepherd project.  If not, see <http://www.gnu.org/licenses/>. 
+ * along with the Security Playground project.  If not, see <http://www.gnu.org/licenses/>. 
  * 
  * @author Mark Denihan
  */
@@ -52,11 +52,11 @@ if(Validate.validateAdminSession(ses, tokenCookie, tokenParmeter))
 String csrfToken = Encode.forHtml(tokenCookie.getValue());
 String ApplicationRoot = getServletContext().getRealPath("");
 %>
-<h1 class="title">The OWASP Security Shepherd Project</h1>
+<h1 class="title">The OWASP Security Playground Project</h1>
 <p>
-	You are currently using Security Shepherd Version 3.2 <br>
-	<br> The OWASP Security Shepherd project is a web and mobile
-	application security training platform. Security Shepherd has been
+	You are currently using Security Playground Version 3.2 <br>
+	<br> The OWASP Security Playground project is a web and mobile
+	application security training platform. Security Playground has been
 	designed to foster and improve security awareness among a varied
 	skill-set demographic. The aim of this project is to take AppSec
 	novices or experienced engineers and sharpen their penetration testing

@@ -24,7 +24,7 @@ public class Analytics {
   public static String mobileVmLinkBlurb =
       new String(
           "To complete this challenge you'll need to use the <a"
-              + " href='http://bit.ly/latestShepherdRelease'>Security Shepherd Android Virtual"
+              + " href='http://bit.ly/latestShepherdRelease'>Security Playground Android Virtual"
               + " Machine</a> that contains the app. ");
 
   public static String sponsorshipMessage(Locale locale) {

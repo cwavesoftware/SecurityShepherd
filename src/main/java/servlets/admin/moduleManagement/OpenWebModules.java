@@ -62,21 +62,21 @@ public class OpenWebModules extends HttpServlet {
             htmlOutput =
                 "<p style='color:red'>[WARNING] Server is vulnerable. Unsafe levels open!<p><h3"
                     + " class='title'>Only Web Levels Are Now Open (including unsafe"
-                    + " levels)</h3><p>All of the Security Shepherd Web Application Security levels"
+                    + " levels)</h3><p>All of the Security Playground Web Application Security levels"
                     + " are now open! All other categories have been closed.</p>";
             break;
           case "disable":
             Setter.closeAllModules(ApplicationRoot);
             Setter.openOnlyWebCategories(ApplicationRoot, 0);
             htmlOutput =
-                "<h3 class='title'>Only Web Levels Are Now Open</h3><p>All of the Security Shepherd"
+                "<h3 class='title'>Only Web Levels Are Now Open</h3><p>All of the Security Playground"
                     + " Web Application Security levels are now open! All other categories have"
                     + " been closed.</p>";
             break;
           default:
             Setter.openOnlyWebCategories(ApplicationRoot, 0);
             htmlOutput =
-                "<h3 class='title'>Only Web Levels Are Now Open</h3><p>All of the Security Shepherd"
+                "<h3 class='title'>Only Web Levels Are Now Open</h3><p>All of the Security Playground"
                     + " Web Application Security levels are now open! All other categories have"
                     + " been closed.</p>";
             break;

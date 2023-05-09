@@ -6,20 +6,20 @@
 	ShepherdLogManager.logEvent(request.getRemoteAddr(), request.getHeader("X-Forwarded-For"), "DEBUG: changeLevelLayout.jsp *************************");
 
 /**
- * This file is part of the Security Shepherd Project.
+ * This file is part of the Security Playground Project.
  * 
- * The Security Shepherd project is free software: you can redistribute it and/or modify
+ * The Security Playground project is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.<br/>
  * 
- * The Security Shepherd project is distributed in the hope that it will be useful,
+ * The Security Playground project is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.<br/>
  * 
  * You should have received a copy of the GNU General Public License
- * along with the Security Shepherd project.  If not, see <http://www.gnu.org/licenses/>. 
+ * along with the Security Playground project.  If not, see <http://www.gnu.org/licenses/>. 
  * 
  * @author Mark Denihan
  */
@@ -69,10 +69,10 @@ if (request.getSession() != null) //Session If
 			<h2 class="title">Enable CTF Mode</h2>
 			<p>When Shepherd has been deployed in the CTF mode, a user can
 				only access one uncompleted module at a time. The first module
-				presented to the user is the easiest in Security Shepherd, which has
+				presented to the user is the easiest in Security Playground, which has
 				not been marked as closed by the administrator. The levels increase
 				slowly in difficulty and jump from one topic to another. This layout
-				is the recommended setting when using Security Shepherd for a
+				is the recommended setting when using Security Playground for a
 				competitive training scenario.</p>
 			<a href="javascript:;" style="text-decoration: none;"
 				id="enableCtfMode" title="Enable CTF Mode">

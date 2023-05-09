@@ -25,13 +25,13 @@ import utils.ScoreboardStatus;
 /**
  * Used to retrieve information from the Database <br>
  * <br>
- * This file is part of the Security Shepherd Project.
+ * This file is part of the Security Playground Project.
  *
- * <p>The Security Shepherd project is free software: you can redistribute it and/or modify it under
+ * <p>The Security Playground project is free software: you can redistribute it and/or modify it under
  * the terms of the GNU General Public License as published by the Free Software Foundation, either
  * version 3 of the License, or (at your option) any later version.<br>
  *
- * <p>The Security Shepherd project is distributed in the hope that it will be useful, but WITHOUT
+ * <p>The Security Playground project is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
  * PURPOSE. See the GNU General Public License for more details.<br>
  *
@@ -948,7 +948,7 @@ public class Getter {
   }
 
   /**
-   * This method prepares the incremental module menu. This is when Security Shepherd is in "Game
+   * This method prepares the incremental module menu. This is when Security Playground is in "Game
    * Mode". Users are presented with one uncompleted module at a time. This method also returns a
    * script to be executed every time the menu is chanegd. This is script defines the animation and
    * operations to be carried out when the menu is interacted with
@@ -1064,7 +1064,7 @@ public class Getter {
   }
 
   /**
-   * This method prepares the incremental module menu. This is when Security Shepherd is in "Game
+   * This method prepares the incremental module menu. This is when Security Playground is in "Game
    * Mode". Users are presented with one uncompleted module at a time. This method does not return
    * the JS script describing how the menu used should work
    *
@@ -2049,7 +2049,7 @@ public class Getter {
   }
 
   /**
-   * This method prepares the Tournament module menu. This is when Security Shepherd is in
+   * This method prepares the Tournament module menu. This is when Security Playground is in
    * "Tournament Mode". Users are presented with a list of that are specified as open.
    *
    * @param ApplicationRoot The running context of the application.

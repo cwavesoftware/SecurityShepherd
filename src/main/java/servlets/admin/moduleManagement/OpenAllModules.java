@@ -69,20 +69,20 @@ public class OpenAllModules extends HttpServlet {
               htmlOutput =
                   "<p style='color:red'>[WARNING] Server is vulnerable. Unsafe levels open!<p><h3"
                       + " class='title'>All Modules are Now Open (including unsafe"
-                      + " levels)</h3><p>All of the Security Shepherd levels are now open and"
+                      + " levels)</h3><p>All of the Security Playground levels are now open and"
                       + " available for any user to access!</p>";
               break;
             case "disable":
               Setter.closeAllModules(ApplicationRoot);
               Setter.openAllModules(ApplicationRoot, false);
               htmlOutput =
-                  "<h3 class='title'>All Modules are Now Open</h3><p>All of the Security Shepherd"
+                  "<h3 class='title'>All Modules are Now Open</h3><p>All of the Security Playground"
                       + " levels are now open and available for any user to access!</p>";
               break;
             default:
               Setter.openAllModules(ApplicationRoot, false);
               htmlOutput =
-                  "<h3 class='title'>All Modules are Now Open</h3><p>All of the Security Shepherd"
+                  "<h3 class='title'>All Modules are Now Open</h3><p>All of the Security Playground"
                       + " levels are now open and available for any user to access!</p>";
           }
         } else {

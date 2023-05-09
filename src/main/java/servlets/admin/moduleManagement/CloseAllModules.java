@@ -45,7 +45,7 @@ public class CloseAllModules extends HttpServlet {
         String ApplicationRoot = getServletContext().getRealPath("");
         Setter.closeAllModules(ApplicationRoot);
         htmlOutput =
-            "<h3 class='title'>All Modules are Now Closed</h3><p>All of the Security Shepherd"
+            "<h3 class='title'>All Modules are Now Closed</h3><p>All of the Security Playground"
                 + " levels are now closed and not available for any user to access or submit"
                 + " solutions for!</p>";
       } else {

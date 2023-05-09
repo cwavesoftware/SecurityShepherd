@@ -24,13 +24,13 @@ import java.util.ArrayList;
 import java.util.Date;
 
 /**
- * This file is part of the Security Shepherd Project.
+ * This file is part of the Security Playground Project.
  *
- * <p>The Security Shepherd project is free software: you can redistribute it and/or modify it under
+ * <p>The Security Playground project is free software: you can redistribute it and/or modify it under
  * the terms of the GNU General Public License as published by the Free Software Foundation, either
  * version 3 of the License, or (at your option) any later version.<br>
  *
- * <p>The Security Shepherd project is distributed in the hope that it will be useful, but WITHOUT
+ * <p>The Security Playground project is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
  * PURPOSE. See the GNU General Public License for more details.<br>
  *
@@ -154,15 +154,15 @@ public class UDataLeakage extends Activity {
       // set dialog message
       alertDialogBuilder
           .setMessage(
-              "This App is part of the Security Shepherd Project. The Security Shepherd project is"
+              "This App is part of the Security Playground Project. The Security Playground project is"
                   + " free software: you can redistribute it and/or modify it under the terms of"
                   + " the GNU General Public License as published by the Free Software Foundation,"
                   + " either version 3 of the License, or (at your option) any later version. The"
-                  + " Security Shepherd project is distributed in the hope that it will be useful,"
+                  + " Security Playground project is distributed in the hope that it will be useful,"
                   + " but WITHOUT ANY WARRANTY; without even the implied warranty of"
                   + " MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General"
                   + " Public License for more details. You should have received a copy of the GNU"
-                  + " General Public License along with the Security Shepherd project.  If not, see"
+                  + " General Public License along with the Security Playground project.  If not, see"
                   + " http://www.gnu.org/licenses.")
           .setCancelable(false)
           .setPositiveButton(

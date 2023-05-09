@@ -18,13 +18,13 @@ import utils.Validate;
  * Control class that modifies the server floor plan to a CTF/Incremental state. This is due a name
  * change <br>
  * <br>
- * This file is part of the Security Shepherd Project.
+ * This file is part of the Security Playground Project.
  *
- * <p>The Security Shepherd project is free software: you can redistribute it and/or modify it under
+ * <p>The Security Playground project is free software: you can redistribute it and/or modify it under
  * the terms of the GNU General Public License as published by the Free Software Foundation, either
  * version 3 of the License, or (at your option) any later version.<br>
  *
- * <p>The Security Shepherd project is distributed in the hope that it will be useful, but WITHOUT
+ * <p>The Security Playground project is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
  * PURPOSE. See the GNU General Public License for more details.<br>
  *
@@ -63,7 +63,7 @@ public class SetCtfMode extends HttpServlet {
         ModulePlan.setIncrementalFloor();
         log.debug("CTF Mode enabled");
         out.write(
-            "<h3 class='title'>CTF Mode Enabled</h3><p>Security Shepherd User is now using the CTF"
+            "<h3 class='title'>CTF Mode Enabled</h3><p>Security Playground User is now using the CTF"
                 + " mode floor plan. You will need to refresh your page to see the changes</p>");
       } else {
         String errorMessage = "Invalid CSRF Tokens Detected.";

@@ -6,20 +6,20 @@
 	ShepherdLogManager.logEvent(request.getRemoteAddr(), request.getHeader("X-Forwarded-For"), "DEBUG: configCheats.jsp *************************");
 
 /**
- * This file is part of the Security Shepherd Project.
+ * This file is part of the Security Playground Project.
  * 
- * The Security Shepherd project is free software: you can redistribute it and/or modify
+ * The Security Playground project is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.<br/>
  * 
- * The Security Shepherd project is distributed in the hope that it will be useful,
+ * The Security Playground project is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.<br/>
  * 
  * You should have received a copy of the GNU General Public License
- * along with the Security Shepherd project.  If not, see <http://www.gnu.org/licenses/>. 
+ * along with the Security Playground project.  If not, see <http://www.gnu.org/licenses/>. 
  * 
  * @author Mark Denihan
  */
@@ -53,11 +53,11 @@ if(Validate.validateAdminSession(ses, tokenCookie, tokenParmeter))
 	String ApplicationRoot = getServletContext().getRealPath("");
 %>
 <h1 class="title">Configure Cheat Sheets</h1>
-<p>The Security Shepherd Application is capable of presenting users
+<p>The Security Playground Application is capable of presenting users
 	with &quot;Cheat Sheets&quot; that will instruct the reader on how to
 	complete a specific module. These cheats are disabled by default, but
 	can be enabled for administrators or all players. Once enabled, as you
-	open Security Shepherd modules, a cheat button will appear in the left
+	open Security Playground modules, a cheat button will appear in the left
 	hand menu. Click this button to reveal the cheat sheet for the
 	currently open module.</p>
 

@@ -45,7 +45,7 @@ public class OpenMobileModules extends HttpServlet {
         String ApplicationRoot = getServletContext().getRealPath("");
         Setter.openOnlyMobileCategories(ApplicationRoot);
         htmlOutput =
-            "<h3 class='title'>Only Mobile Levels Are Now Open</h3><p>All of the Security Shepherd"
+            "<h3 class='title'>Only Mobile Levels Are Now Open</h3><p>All of the Security Playground"
                 + " Mobile Security levels are now open! All other categories have been"
                 + " closed.</p>";
       } else {
