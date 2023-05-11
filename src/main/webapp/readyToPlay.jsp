@@ -60,9 +60,6 @@
 		<p>
 			<fmt:message key="readyToPlay.text.info.enteredGame" />
 		</p>
-		<%= Analytics.sponsorshipMessage(new Locale(Validate.validateLanguage(request.getSession()))) %>
-		<% if(Analytics.googleAnalyticsOn) { %><%= Analytics.googleAnalyticsScript %>
-		<% } %>
 	</div>
 </body>
 </html>

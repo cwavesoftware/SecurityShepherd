@@ -157,6 +157,11 @@
 							<table>
 								<tr>
 									<td align="center"><a
+										href="https://portswigger.net/burp/releases/professional-community-2023-3-5?requestededition=community&requestedplatform="><fmt:message
+												key="login.link.burp" /></a></td>
+								</tr>
+								<tr>
+									<td align="center"><a
 										href="https://github.com/zaproxy/zaproxy/wiki/Downloads"><fmt:message
 												key="login.link.zap_win" /></a></td>
 								</tr>
@@ -172,22 +177,10 @@
 								</tr>
 							</table>
 						</div>
-						<br> <a id="showAbout" href="javascript:;"><fmt:message
-								key="generic.text.aboutSecShep" /></a>
 					</div>
 				</div>
 			</div>
 			<div align="justify">
-
-				<div id="aboutDiv" style="display: none;">
-					<h2 class="title">
-						<fmt:message key="generic.text.aboutSecShep" />
-					</h2>
-					<p id="about_shepherd_blurb">
-						<fmt:message key="login.text.about_blurb" />
-					</p>
-					<%=Analytics.sponsorshipMessage(new Locale(Validate.validateLanguage(request.getSession())))%>
-				</div>
 			</div>
 			<!-- end content -->
 			<!-- start sidebar -->

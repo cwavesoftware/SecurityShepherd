@@ -62,7 +62,6 @@ String ApplicationRoot = getServletContext().getRealPath("");
 	novices or experienced engineers and sharpen their penetration testing
 	skill set to security expert status.
 </p>
-<%= Analytics.sponsorshipMessage(new Locale(Validate.validateLanguage(request.getSession()))) %>
 <br />
 <br />
 <div id="badData" style="display: none;"></div>
