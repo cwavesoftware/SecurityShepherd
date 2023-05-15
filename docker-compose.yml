@@ -39,6 +39,7 @@ services:
     volumes:
       - conf:/usr/local/tomcat/conf
       - logs:/usr/local/tomcat/logs
+      - ./deploy:/deploy
     env_file:
       - .env
     build:

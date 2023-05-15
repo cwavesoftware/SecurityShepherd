@@ -74,6 +74,7 @@
 	<div id="contentDiv">
 		<h2 class="title"><%= i18nChallengeName %></h2>
 		<p>
+			<%= bundle.getString("challenge.description") %>
 			<%= bundle.getString("challenge.whatToDo") %>
 			<br /> <br />
 		<center>
