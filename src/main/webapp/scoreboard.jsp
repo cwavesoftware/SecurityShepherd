@@ -74,7 +74,7 @@
 %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>OWASP Security Playground - Scoreboard</title>
+<title>Happening Security Playground - Scoreboard</title>
 
 <link href="css/theCss.css" rel="stylesheet" type="text/css"
 	media="screen" />
@@ -88,7 +88,7 @@
 		<!-- start header -->
 		<div id="header">
 			<h1>Scoreboard</h1>
-			<p>The OWASP Security Playground Project</p>
+			<p>The Happening Security Playground Project</p>
 		</div>
 		<!-- end header -->
 		<!-- start page -->

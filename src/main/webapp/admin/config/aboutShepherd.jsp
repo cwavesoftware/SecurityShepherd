@@ -52,7 +52,7 @@ if(Validate.validateAdminSession(ses, tokenCookie, tokenParmeter))
 String csrfToken = Encode.forHtml(tokenCookie.getValue());
 String ApplicationRoot = getServletContext().getRealPath("");
 %>
-<h1 class="title">The OWASP Security Playground Project</h1>
+<h1 class="title">The Happening Security Playground Project</h1>
 <p>
 	You are currently using Security Playground Version 3.2 <br>
 	<br> The Security Playground project is a web and mobile

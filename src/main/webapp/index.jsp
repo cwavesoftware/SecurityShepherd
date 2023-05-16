@@ -61,7 +61,7 @@ if (request.getSession() != null)
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>OWASP Security Playground</title>
+<title>Happening Security Playground</title>
 
 <!-- 
 			<fmt:message key="generic.text.commentMessage.1" /> 

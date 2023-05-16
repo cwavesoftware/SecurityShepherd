@@ -1,5 +1,5 @@
 
-# OWASP Security Playground Contributing
+# Happening Security Playground Contributing
 
 ## GitFlow
 Shepherd uses [GitFlow](https://datasift.github.io/gitflow/IntroducingGitFlow.html). That basically means you never directly commit to master / dev.

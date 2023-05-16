@@ -30,7 +30,7 @@ jobs:
         uses: dependency-check/Dependency-Check_Action@main
         id: dependency-check
         with:
-          project: 'OWASP Security Playground'
+          project: 'Happening Security Playground'
           path: '.'
           format: 'HTML'
           args: >

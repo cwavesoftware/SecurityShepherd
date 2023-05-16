@@ -177,7 +177,7 @@ public class FeedbackSubmit extends HttpServlet {
                   "<h2 class=\"title\">Solution Submission Failure</h2><br><p><font"
                       + " color=\"red\">Incorrect Solution Key Submitted.<br><br>You have limited"
                       + " amounts of incorrect key submissions before you will loose 10% of your"
-                      + " points. Contact the OWASP Security Playground if you think you have found"
+                      + " points. Contact the RedTeam if you think you have found"
                       + " the correct key but it is failing you.</font></p>");
 
               log.error("Invoking Bad Submission procedure...");

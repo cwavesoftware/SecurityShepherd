@@ -84,7 +84,7 @@ public class XssChallengeFour extends HttpServlet {
             userPost =
                 "<a href=\""
                     + searchTerm
-                    + "\" alt=\"OWASP Security Playground\">"
+                    + "\" alt=\"Happening Security Playground\">"
                     + searchTerm
                     + "</a>";
           } else {

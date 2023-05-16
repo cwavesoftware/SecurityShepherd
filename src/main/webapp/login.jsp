@@ -58,7 +58,7 @@
 %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>OWASP Security Playground - Login</title>
+<title>Happening Security Playground - Login</title>
 
 <link href="css/theCss.css" rel="stylesheet" type="text/css"
 	media="screen" />

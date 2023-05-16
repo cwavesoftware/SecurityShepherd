@@ -11,3 +11,4 @@ src/main/resources/sso.properties
 briefcase.pulp
 json.xml
 .idea
+deploy
